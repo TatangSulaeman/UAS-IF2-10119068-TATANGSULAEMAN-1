@@ -5,6 +5,8 @@
  */
 package uas.if2.pkg10119068.tatangsulaeman.pkg1;
 
+import java.util.Scanner;
+
 /**
  *
  * @author amtat
@@ -22,6 +24,14 @@ public class UASIF210119068TATANGSULAEMAN1 {
      */ 
     public static void main(String[] args) {
         // TODO code application logic here
+        Scanner scanner = new Scanner(System.in);
+        IndexNilai nilai = new IndexNilai();
+        System.out.println("Masukan Nilai Akhir Anda : ");
+        nilai = scanner.nextDouble();
+        nilai.setNilai();
+        System.out.println();
+        System.out.println("Indeks Anda adalah  " + nilai. )
+        
     }
     
 }
